@@ -29,6 +29,10 @@ angular.module('starter')
             item.checked = !item.checked;
         }
 
+        $scope.getComment = function(item){
+            item.hasComment = true;
+        }
+
         $scope.getChecked = function (catagory) {
             var num = 0;
             catagory.items.forEach(function (o, i) {

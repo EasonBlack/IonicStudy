@@ -1,50 +1,95 @@
 .item {
-  height: 30px;
-  line-height: 30px;
-  padding: 0px 10px;
-  display: flex;
-  flex-direction: row;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item__box {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.item__box_col {
+
+}
+.item__group-box {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+}
+
+.item__subbox {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .item__parent {
-  background-color: #c7c6c2;
-  color: black;
+    background-color: #c7c6c2;
+    color: black;
 
 }
 
 .item__child {
-  height: 50px;
-  line-height: 50px;
-  transition: 0.09s all linear;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.09s all linear;
 }
 
 .item__child.ng-hide {
-  line-height: 0px;
+    line-height: 0px;
 }
 
 .item__content {
-  position: relative;
+    position: relative;
 }
 
 .item__content_name {
-  height: 25px;
-  line-height: 25px;
+    height: 25px;
+    line-height: 25px;
 }
 
 .item__content_time {
-  height: 20px;
-  line-height: 20px;
-  font-size: 12px;
-  color: #c7c6c2;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #c7c6c2;
 }
 
 .item__content_status {
-  text-align: right;
-  font-size: 10px;
+    text-align: left;
+    font-size: 10px;
+    width: 50px;
+}
+
+.item__content_edit {
+    text-align: center;
+    width: 30px;
+}
+
+.item__comment {
+    background-color: #c7c6c2;
+}
+
+.flex__row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.flex__coloum {
+    display: flex;
+    flex-direction: column !important;
 }
 
 .flex__1 {
-  flex: 1;
+    flex: 1;
 }
 
 .flex__100 {
@@ -52,9 +97,9 @@
 }
 
 .text__red {
-  color: red;
+    color: red;
 }
 
 .text__green {
-  color: green;
+    color: green;
 }
