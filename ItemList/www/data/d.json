@@ -1,0 +1,464 @@
+[
+  {
+    "name": "AMENITY, OUTSIDE",
+    "areas": [
+      {
+        "name": "I. Main lobby's corridor area",
+        "spots": [
+          {
+            "name": "1 Outside (marble floor, stairs, card machines)"
+          },
+          {
+            "name": "2 Doors & glass windows"
+          },
+          {
+            "name": "3 Fire Extinguisher"
+          },
+          {
+            "name": "4 Walls, ceiling, switch, sign boards"
+          },
+          {
+            "name": "5 Floors (vinyl, rock, carpet, wood)"
+          },
+          {
+            "name": "6 Furnishings, counter"
+          },
+          {
+            "name": "7 Toilet (separate checklist)"
+          },
+          {
+            "name": "8 Elevator (floor, walls, inside, buttons)"
+          },
+          {
+            "name": "9 Status of equipments of the factory"
+          }
+        ]
+      },
+      {
+        "name": "II. VIP 's corridor and meeting room area",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Walls, ceiling, switch, sign boards"
+          },
+          {
+            "name": "3 Floors (vinyl, rock, carpet, wood)"
+          },
+          {
+            "name": "4 Furnishings, counter"
+          },
+          {
+            "name": "5 Stairs"
+          },
+          {
+            "name": "6 Toilet (separate checklist)"
+          },
+          {
+            "name": "7 Arrange tables and water bottles"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      },
+      {
+        "name": "III. Locker areas (1st floor)",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Fire box"
+          },
+          {
+            "name": "3 Walls, ceiling, switch, sign boards"
+          },
+          {
+            "name": "4 Floors"
+          },
+          {
+            "name": "5 Lockers"
+          },
+          {
+            "name": "6 Toilet (separate checklist)"
+          },
+          {
+            "name": "7 Garbage collect"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      },
+      {
+        "name": "IV. Locker areas (2nd floor)",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Fire box"
+          },
+          {
+            "name": "3 Walls, ceiling, switch, name tags"
+          },
+          {
+            "name": "4 Floors"
+          },
+          {
+            "name": "5 Lockers"
+          },
+          {
+            "name": "6 Toilet (separate checklist)"
+          },
+          {
+            "name": "7 Garbage collect"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      },
+      {
+        "name": "V. Corridors areas of 1st and 2nd floor",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Stairs (floor,hand wheel, wall)"
+          },
+          {
+            "name": "3 Fire box"
+          },
+          {
+            "name": "4 Walls, ceiling, switch, sign boards"
+          },
+          {
+            "name": "5 Floors"
+          },
+          {
+            "name": "6 Toilet (separate checklist)"
+          },
+          {
+            "name": "7 Status of equipments of the factory"
+          }
+        ]
+      },
+      {
+        "name": "VI. Meeting rooms and training rooms areas",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Walls, ceiling, switch, name tags"
+          },
+          {
+            "name": "3 Floors"
+          },
+          {
+            "name": "4 Furnitures (cabinet, shelf, table, desk)"
+          },
+          {
+            "name": "5 Arrange tables and water bottles"
+          },
+          {
+            "name": "6 Toilet (separate checklist)"
+          },
+          {
+            "name": "7 Garbage collect"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      },
+      {
+        "name": "VII. GYM rooms and offices areas",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Walls, ceiling, switch, sign boards"
+          },
+          {
+            "name": "3 Floors"
+          },
+          {
+            "name": "4 Furnitures (cabinet, shelf, table, desk)"
+          },
+          {
+            "name": "5 Arrange tables and water bottles"
+          },
+          {
+            "name": "6 Pantry areas (sink, front side, microwave, fridge..)"
+          },
+          {
+            "name": "7 Garbage collect"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      },
+      {
+        "name": "VII. Outside areas",
+        "spots": [
+          {
+            "name": "1 Main entrance and guard house"
+          },
+          {
+            "name": "2 Driveway, walking way"
+          },
+          {
+            "name": "3 Car park (floor, shelf)"
+          },
+          {
+            "name": "4 Spider webs"
+          },
+          {
+            "name": "5 Walls outside houses area"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "OFFICE",
+    "areas": [
+      {
+        "name": "I. Corridors areas from Amenity to the factory",
+        "spots": [
+          {
+            "name": "1 Glass windows"
+          },
+          {
+            "name": "2 Stairs, hand wheels and sign boards"
+          },
+          {
+            "name": "3 Doors"
+          },
+          {
+            "name": "4 Fire box"
+          },
+          {
+            "name": "5 Walls, ceiling and switch"
+          },
+          {
+            "name": "6 Floors"
+          },
+          {
+            "name": "7 Toilet (separate checklist)"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      },
+      {
+        "name": "II. Meeting rooms and training rooms areas",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Walls, ceiling, switch, sign boards"
+          },
+          {
+            "name": "3 Floors"
+          },
+          {
+            "name": "4 Furnitures (cabinet, shelf, table, desk)"
+          },
+          {
+            "name": "5 Arrange tables and water bottles"
+          },
+          {
+            "name": "6 Toilet (separate checklist)"
+          },
+          {
+            "name": "7 Garbage collect"
+          },
+          {
+            "name": "8 Status of equipments of the factory,"
+          }
+        ]
+      },
+      {
+        "name": "III. Offices areas",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Walls, ceiling, switch, sign boards"
+          },
+          {
+            "name": "3 Floors"
+          },
+          {
+            "name": "4 Furnitures (cabinet, shelf, table, desk)"
+          },
+          {
+            "name": "5 Arrange tables and water bottles"
+          },
+          {
+            "name": "6 Pantry areas (sink, front side, microwave, fridge..)"
+          },
+          {
+            "name": "7 Garbage collect"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FA I",
+    "areas": [
+      {
+        "name": "",
+        "spots": [
+          {
+            "name": "1 Doors & glass windows"
+          },
+          {
+            "name": "2 Fire box"
+          },
+          {
+            "name": "3 Walls, ceiling, switch, sign boards"
+          },
+          {
+            "name": "4 Floor"
+          },
+          {
+            "name": "5 Bottom of line (as in record of Teamleader)"
+          },
+          {
+            "name": "6 Toilet (separate checklist)"
+          },
+          {
+            "name": "7 Garbage collect"
+          },
+          {
+            "name": "8 Status of equipments of the factory"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "BA I",
+    "areas": [
+      {
+        "name": "",
+        "spots": [
+          {"name": "1 Doors & glass windows"},
+          {"name": "2 Fire box"},
+          {"name": "3 Walls, ceiling, switch, sign boards"},
+          {"name": "4 Floor"},
+          {"name": "5 Bottom of line (as in record of Teamleader)"},
+          {"name": "6 Toilet (separate checklist)"},
+          {"name": "7 Garbage collect"},
+          {"name": "8 Status of equipments of the factory"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "F.A II",
+    "areas": [
+      {
+        "name": "",
+        "spots": [
+          {"name": "1 Doors & glass windows"},
+          {"name": "2 Fire box"},
+          {"name": "3 Walls, ceiling, switch, sign boards"},
+          {"name": "4 Floor"},
+          {"name": "5 Bottom of line (as in record of Teamleader)"},
+          {"name": "6 Toilet (separate checklist)"},
+          {"name": "7 Garbage collect"},
+          {"name": "8 Status of equipments of the factory"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "B.A II",
+    "areas": [
+      {
+        "name": "",
+        "spots": [
+          {"name": "1 Doors & glass windows"},
+          {"name": "2 Fire box"},
+          {"name": "3 Walls, ceiling, switch, sign boards"},
+          {"name": "4 Floor"},
+          {"name": "5 Bottom of line (as in record of Teamleader)"},
+          {"name": "6 Toilet (separate checklist)"},
+          {"name": "7 Garbage collect"},
+          {"name": "8 Status of equipments of the factory"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SHIPPING I, II",
+    "areas": [
+      {
+        "name": "",
+        "spots": [
+          {"name": "1 Doors & glass windows"},
+          {"name": "2 Fire box"},
+          {"name": "3 Walls, ceiling, switch, sign boards"},
+          {"name": "4 Floor"},
+          {"name": "5 Toilet (separate checklist)"},
+          {"name": "6 Garbage collect"},
+          {"name": "8 Status of equipments of the factory"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "WAREHOUSE",
+    "areas": [
+      {
+        "name": "",
+        "spots": [
+          {"name": "1 Doors & glass windows"},
+          {"name": "2 Fire box"},
+          {"name": "3 Walls, ceiling, switch, sign boards"},
+          {"name": "4 Floor"},
+          {"name": "5 Toilet (separate checklist)"},
+          {"name": "6 Garbage collect"},
+          {"name": "7 Shelf (under 2m)"},
+          {"name": "8 Status of equipments of the factory"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FLOOR SCRUBBING, CORRIDORS IN THE MIDDLE",
+    "areas": [
+      {
+        "name": "",
+        "spots": [
+          {"name": "1 Doors & glass windows"},
+          {"name": "2 Fire box"},
+          {"name": "3 Walls, ceiling, switch, sign boards"},
+          {"name": "4 Floor"},
+          {"name": "5 Garbage collect"},
+          {"name": "6 Status of equipments of the factory"}
+        ]
+      }
+    ]
+  }
+]
