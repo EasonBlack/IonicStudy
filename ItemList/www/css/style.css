@@ -1,0 +1,59 @@
+.item {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item__parent {
+    background-color: #c7c6c2;
+    color: black;
+
+}
+
+.item__child {
+    height: 50px;
+    line-height: 50px;
+    transition: 0.09s all linear;
+}
+.item__child.ng-hide {
+    line-height: 0px;
+}
+
+.item__content {
+    position:relative;
+}
+.item__content_name {
+    position:absolute;
+    top: -13px;
+
+}
+
+.item__content_time {
+    position:absolute;
+    bottom:-8px;
+    font-size:12px;
+    color: #c7c6c2;
+}
+
+.item__content_status {
+   text-align: right;
+    font-size:10px;
+}
+
+.flex__1 {
+    flex: 1;
+}
+
+.flex__100 {
+
+}
+
+.text__red {
+     color:red;
+ }
+
+.text__green {
+    color:green;
+}
