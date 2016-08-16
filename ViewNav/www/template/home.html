@@ -1,0 +1,38 @@
+<ion-view view-title="Home">
+    <ion-content class="padding layout__margin-bottom">
+        <div class="panel">
+            <div class="panel__title">
+                Service Request
+            </div>
+            <ion-list>
+                <ion-item ng-repeat="request in requests" class="flex__row panel__item">
+                    <div class="flex__1">
+                        <div class="item__content_name">{{request.name}}</div>
+                        <div class="item__content_time">{{request.time}}</div>
+                    </div>
+                    <div class="flex__100">
+                        xx
+                    </div>
+                </ion-item>
+            </ion-list>
+        </div>
+
+        <div class="panel">
+            <div class="panel__title">
+               Spot Check
+            </div>
+            <ion-list>
+                <ion-item ng-repeat="check in checks" class="flex__row panel__item" ng-click="clicker()">
+                    <div class="flex__1 item__box">
+                        <div class="item__content_name">{{check.name}}</div>
+                        <div class="item__content_time">{{check.time}}</div>
+                    </div>
+                    <div class="flex__1 item__double-box">
+                        <div class="item__content_name">xxx</div>
+                        <div class="item__content_time">ddd</div>
+                    </div>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

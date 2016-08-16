@@ -1,0 +1,16 @@
+.flex__row {
+    display:flex;
+    flex-direction: row;
+}
+
+.flex__1 {
+    flex: 1;
+}
+
+.flex__100 {
+
+}
+
+.layout__margin-bottom {
+    margin-bottom:49px;
+}

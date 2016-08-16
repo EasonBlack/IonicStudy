@@ -1,0 +1,75 @@
+
+.tab-nav .tab-item {
+    max-width: none !important;
+}
+
+.tab-nav .tab-item.tab-item-active {
+    background-color: #D8D8D8;
+}
+
+.tab-nav .tab-item.tab-item-active .ion-record:before {
+    color: white;
+}
+
+.tab-nav .ion-record {
+    font-size: 17px;
+}
+
+.tab-nav .ion-record:before {
+    color: #D8D8D8;
+    font-size: 17px;
+}
+
+.panel {
+    padding: 0px 20px 0px;
+    background-color: #D8D8D8;
+    margin: 10px 20px;
+}
+
+.panel .item {
+    margin-bottom: 10px;
+}
+
+.panel__title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.panel__item {
+    padding: 8px;
+}
+
+.item__content_name {
+    height: 25px;
+    line-height: 25px;
+}
+
+.item__content_time {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #c7c6c2;
+}
+
+.item__box {
+    border-right:1px solid grey;
+
+}
+
+.item__double-box {
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
