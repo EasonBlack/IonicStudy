@@ -25,11 +25,29 @@
 <body ng-app="starter">
 
 <ion-pane>
-    <ion-header-bar class="bar-stable">
-        <a class="button ion-android-arrow-back  button-clear button-dark"></a>
+    <ion-header-bar class="bar-stable flex__row">
+        <div class="flex__small">
+            <a class="button ion-android-arrow-back  button-clear button-dark"></a>
+        </div>
+         <div class="flex__1 text-center header__select-container">
+             <select class="row-center header__select"
+                     ng-model="areaSelected"
+                     ng-init="areaSelected='OFFICE'"
+                    >
+                 <option value="AMENITY,OUTSIDE">AMENITY,OUTSIDE</option>
+                 <option value="OFFICE">OFFICE</option>
+             </select>
+             <div class="text__container">
+                 {{areaSelected}}
+                 <i class="ion-arrow-down-b"></i>
+             </div>
+         </div>
+         <div class="flex__small text-right">
+             <a class="button ion-funnel  button-clear button-dark"></a>
+         </div>
+        <!--<h1 class="title">AMENITY,OUTSIDE</h1>-->
 
-        <h1 class="title">AMENITY,OUTSIDE</h1>
-        <a class="button ion-funnel  button-clear button-dark"></a>
+
     </ion-header-bar>
     <ion-tabs class="tabs-stable tabs-top  bar-subheader tabs-icon-top">
         <ion-tab title="Home" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline">

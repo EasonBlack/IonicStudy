@@ -91,7 +91,9 @@
 .flex__1 {
     flex: 1;
 }
-
+.flex__small {
+    width:30px;
+}
 .flex__100 {
 
 }
@@ -103,3 +105,31 @@
 .text__green {
     color: green;
 }
+
+
+.header__select-container {
+    position:relative;
+}
+.header__select {
+    position:absolute;
+    background: transparent;
+    border: none;
+    left:0;
+    top:0;
+    opacity:0;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+.text__container {
+    position:absolute;
+    left:0;
+    top:0;
+    text-align: center;
+    width:100%;
+    height:100%;
+    z-index:1;
+    padding-top:10px;
+}
+
+
