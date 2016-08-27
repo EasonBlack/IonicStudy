@@ -1,11 +1,18 @@
 
 .flex__row {
   display: flex;
+  flex-wrap:wrap;
 }
 
 .flex__1 {
   position: relative;
   width: 33.3333%;
+}
+
+.icon-add {
+  height: 30px;
+  line-height: 30px;
+  font-size: 25px;
 }
 
 .box {
@@ -36,4 +43,24 @@
 }
 .bg_purple {
   background-color: #6b46e5;
+}
+
+.content-section {
+  transition:all 0.5s ease;
+  opacity:1;
+}
+.content-section.mask {
+   opacity:0.1;
+}
+
+.select-section {
+  z-index:10;
+  transition:height 0.5s ease;
+  height:0px;
+}
+.select-section.active {
+  height:300px;
+}
+.select-item {
+  text-align:center;
 }

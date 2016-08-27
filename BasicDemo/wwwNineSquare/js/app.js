@@ -23,14 +23,28 @@ angular.module('starter', ['ionic'])
         });
     })
     .controller('appCtrl', ['$scope', '$ionicPopup', function ($scope, $ionicPopup) {
-        $scope.showConfirm = function() {
+        $scope.items = [];
+
+        $scope.selectAppear = false;
+        $scope.showSelect = function () {
+            $scope.selectAppear = !$scope.selectAppear;
+        }
+
+        $scope.addBlock = function (type) {
+            var item = {
+                type: type
+            }
+            $scope.items.push(item);
+        }
+
+        $scope.showConfirm = function () {
             var confirmPopup = $ionicPopup.confirm({
                 title: 'Consume Ice Cream',
                 template: 'Are you sure you want to eat this ice cream?'
             });
 
-            confirmPopup.then(function(res) {
-                if(res) {
+            confirmPopup.then(function (res) {
+                if (res) {
                     console.log('You are sure');
                 } else {
                     console.log('You are not sure');
