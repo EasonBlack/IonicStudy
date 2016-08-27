@@ -1,0 +1,39 @@
+
+.flex__row {
+  display: flex;
+}
+
+.flex__1 {
+  position: relative;
+  width: 33.3333%;
+}
+
+.box {
+
+}
+.box:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  vertical-align: middle;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.bg_blue {
+  background-color: #336699;
+}
+.bg_green {
+  background-color: #4cd964;
+}
+.bg_purple {
+  background-color: #6b46e5;
+}
