@@ -1,0 +1,17 @@
+
+ul {
+  list-style: none;
+}
+
+.mask__wrapper {
+  width: 100vw;
+  position: relative;
+}
+
+.mask__scrollable {
+  overflow: scroll !important;
+}
+
+.item {
+  height:70px;
+}

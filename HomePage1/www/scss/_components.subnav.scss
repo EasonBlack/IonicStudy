@@ -1,0 +1,14 @@
+.subnav__list {
+  width:125vw;
+  display: flex;
+  flex-direction: row;
+
+  li {
+    width: 25vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+}

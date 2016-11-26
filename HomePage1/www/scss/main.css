@@ -1,0 +1,43 @@
+ul {
+  list-style: none; }
+
+.mask__wrapper {
+  width: 100vw;
+  position: relative; }
+
+.mask__scrollable {
+  overflow: scroll !important; }
+
+.item {
+  height: 70px; }
+
+.main__wrapper {
+  margin-top: 44px;
+  overflow: scroll;
+  position: relative; }
+
+.banner__wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.banner__list {
+  width: 500%;
+  display: flex;
+  flex-direction: row; }
+  .banner__list li {
+    width: 100vw; }
+
+.subnav__list {
+  width: 125vw;
+  display: flex;
+  flex-direction: row; }
+  .subnav__list li {
+    width: 25vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em; }
+
+/*# sourceMappingURL=main.css.map */
